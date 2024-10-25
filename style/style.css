@@ -440,7 +440,15 @@ button {
 }
 
 .pricing-cards-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    height: 730px;
+}
+
+.title-cards {
+    margin-top: 20px;
 }
 
 .pricing-image {
